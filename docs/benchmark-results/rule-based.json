@@ -1,0 +1,1168 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-05T20:07:56.955681+00:00",
+  "python": "3.12.14",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "mode": "rule-based",
+  "repeats": 3,
+  "documents": 7,
+  "corpus_sha256": "1a597c58abd1c73d0050a735cfa218fd2570114b4c522aff03daab3406000685",
+  "method": "Eight scalar fields; fresh store per document per repeat; template learning disabled; no LLM/OCR.",
+  "summary": {
+    "matched_fields": 147,
+    "evaluated_fields": 168,
+    "field_match_rate": 0.875,
+    "present_field_match_rate": 0.8571,
+    "absent_field_match_rate": 1.0,
+    "pipeline_error_runs": 0,
+    "median_pipeline_ms": 13.92
+  },
+  "cases": [
+    {
+      "id": "standard",
+      "file": "standard.txt",
+      "runs": [
+        {
+          "elapsed_ms": 20.152,
+          "fields": {
+            "vendor_name": {
+              "expected": "Northstar Demo Supplies",
+              "actual": "Northstar Demo Supplies",
+              "match": true
+            },
+            "invoice_number": {
+              "expected": "DEMO-1001",
+              "actual": "DEMO-1001",
+              "match": true
+            },
+            "invoice_date": {
+              "expected": "2026-01-15",
+              "actual": "2026-01-15",
+              "match": true
+            },
+            "due_date": {
+              "expected": "2026-02-14",
+              "actual": "2026-02-14",
+              "match": true
+            },
+            "subtotal": {
+              "expected": 1000.0,
+              "actual": 1000.0,
+              "match": true
+            },
+            "tax": {
+              "expected": 80.0,
+              "actual": 80.0,
+              "match": true
+            },
+            "shipping_handling": {
+              "expected": null,
+              "actual": null,
+              "match": true
+            },
+            "total_amount": {
+              "expected": 1080.0,
+              "actual": 1080.0,
+              "match": true
+            }
+          },
+          "errors": [],
+          "needs_review": false,
+          "validation_failures": []
+        },
+        {
+          "elapsed_ms": 19.403,
+          "fields": {
+            "vendor_name": {
+              "expected": "Northstar Demo Supplies",
+              "actual": "Northstar Demo Supplies",
+              "match": true
+            },
+            "invoice_number": {
+              "expected": "DEMO-1001",
+              "actual": "DEMO-1001",
+              "match": true
+            },
+            "invoice_date": {
+              "expected": "2026-01-15",
+              "actual": "2026-01-15",
+              "match": true
+            },
+            "due_date": {
+              "expected": "2026-02-14",
+              "actual": "2026-02-14",
+              "match": true
+            },
+            "subtotal": {
+              "expected": 1000.0,
+              "actual": 1000.0,
+              "match": true
+            },
+            "tax": {
+              "expected": 80.0,
+              "actual": 80.0,
+              "match": true
+            },
+            "shipping_handling": {
+              "expected": null,
+              "actual": null,
+              "match": true
+            },
+            "total_amount": {
+              "expected": 1080.0,
+              "actual": 1080.0,
+              "match": true
+            }
+          },
+          "errors": [],
+          "needs_review": false,
+          "validation_failures": []
+        },
+        {
+          "elapsed_ms": 25.103,
+          "fields": {
+            "vendor_name": {
+              "expected": "Northstar Demo Supplies",
+              "actual": "Northstar Demo Supplies",
+              "match": true
+            },
+            "invoice_number": {
+              "expected": "DEMO-1001",
+              "actual": "DEMO-1001",
+              "match": true
+            },
+            "invoice_date": {
+              "expected": "2026-01-15",
+              "actual": "2026-01-15",
+              "match": true
+            },
+            "due_date": {
+              "expected": "2026-02-14",
+              "actual": "2026-02-14",
+              "match": true
+            },
+            "subtotal": {
+              "expected": 1000.0,
+              "actual": 1000.0,
+              "match": true
+            },
+            "tax": {
+              "expected": 80.0,
+              "actual": 80.0,
+              "match": true
+            },
+            "shipping_handling": {
+              "expected": null,
+              "actual": null,
+              "match": true
+            },
+            "total_amount": {
+              "expected": 1080.0,
+              "actual": 1080.0,
+              "match": true
+            }
+          },
+          "errors": [],
+          "needs_review": false,
+          "validation_failures": []
+        }
+      ]
+    },
+    {
+      "id": "first-line-vendor",
+      "file": "first-line-vendor.txt",
+      "runs": [
+        {
+          "elapsed_ms": 13.92,
+          "fields": {
+            "vendor_name": {
+              "expected": "Northstar Demo Supplies",
+              "actual": "Northstar Demo Supplies",
+              "match": true
+            },
+            "invoice_number": {
+              "expected": "DEMO-1002",
+              "actual": "DEMO-1002",
+              "match": true
+            },
+            "invoice_date": {
+              "expected": "2026-01-15",
+              "actual": "2026-01-15",
+              "match": true
+            },
+            "due_date": {
+              "expected": "2026-02-14",
+              "actual": "2026-02-14",
+              "match": true
+            },
+            "subtotal": {
+              "expected": 1000.0,
+              "actual": 1000.0,
+              "match": true
+            },
+            "tax": {
+              "expected": 80.0,
+              "actual": 80.0,
+              "match": true
+            },
+            "shipping_handling": {
+              "expected": null,
+              "actual": null,
+              "match": true
+            },
+            "total_amount": {
+              "expected": 1080.0,
+              "actual": 1080.0,
+              "match": true
+            }
+          },
+          "errors": [],
+          "needs_review": false,
+          "validation_failures": []
+        },
+        {
+          "elapsed_ms": 13.987,
+          "fields": {
+            "vendor_name": {
+              "expected": "Northstar Demo Supplies",
+              "actual": "Northstar Demo Supplies",
+              "match": true
+            },
+            "invoice_number": {
+              "expected": "DEMO-1002",
+              "actual": "DEMO-1002",
+              "match": true
+            },
+            "invoice_date": {
+              "expected": "2026-01-15",
+              "actual": "2026-01-15",
+              "match": true
+            },
+            "due_date": {
+              "expected": "2026-02-14",
+              "actual": "2026-02-14",
+              "match": true
+            },
+            "subtotal": {
+              "expected": 1000.0,
+              "actual": 1000.0,
+              "match": true
+            },
+            "tax": {
+              "expected": 80.0,
+              "actual": 80.0,
+              "match": true
+            },
+            "shipping_handling": {
+              "expected": null,
+              "actual": null,
+              "match": true
+            },
+            "total_amount": {
+              "expected": 1080.0,
+              "actual": 1080.0,
+              "match": true
+            }
+          },
+          "errors": [],
+          "needs_review": false,
+          "validation_failures": []
+        },
+        {
+          "elapsed_ms": 9.806,
+          "fields": {
+            "vendor_name": {
+              "expected": "Northstar Demo Supplies",
+              "actual": "Northstar Demo Supplies",
+              "match": true
+            },
+            "invoice_number": {
+              "expected": "DEMO-1002",
+              "actual": "DEMO-1002",
+              "match": true
+            },
+            "invoice_date": {
+              "expected": "2026-01-15",
+              "actual": "2026-01-15",
+              "match": true
+            },
+            "due_date": {
+              "expected": "2026-02-14",
+              "actual": "2026-02-14",
+              "match": true
+            },
+            "subtotal": {
+              "expected": 1000.0,
+              "actual": 1000.0,
+              "match": true
+            },
+            "tax": {
+              "expected": 80.0,
+              "actual": 80.0,
+              "match": true
+            },
+            "shipping_handling": {
+              "expected": null,
+              "actual": null,
+              "match": true
+            },
+            "total_amount": {
+              "expected": 1080.0,
+              "actual": 1080.0,
+              "match": true
+            }
+          },
+          "errors": [],
+          "needs_review": false,
+          "validation_failures": []
+        }
+      ]
+    },
+    {
+      "id": "shipping",
+      "file": "shipping.txt",
+      "runs": [
+        {
+          "elapsed_ms": 10.441,
+          "fields": {
+            "vendor_name": {
+              "expected": "Northstar Demo Supplies",
+              "actual": "Northstar Demo Supplies",
+              "match": true
+            },
+            "invoice_number": {
+              "expected": "DEMO-1003",
+              "actual": "DEMO-1003",
+              "match": true
+            },
+            "invoice_date": {
+              "expected": "2026-01-15",
+              "actual": "2026-01-15",
+              "match": true
+            },
+            "due_date": {
+              "expected": "2026-02-14",
+              "actual": "2026-02-14",
+              "match": true
+            },
+            "subtotal": {
+              "expected": 1000.0,
+              "actual": 1000.0,
+              "match": true
+            },
+            "tax": {
+              "expected": 80.0,
+              "actual": 80.0,
+              "match": true
+            },
+            "shipping_handling": {
+              "expected": 25.0,
+              "actual": 25.0,
+              "match": true
+            },
+            "total_amount": {
+              "expected": 1105.0,
+              "actual": 1105.0,
+              "match": true
+            }
+          },
+          "errors": [],
+          "needs_review": false,
+          "validation_failures": []
+        },
+        {
+          "elapsed_ms": 12.952,
+          "fields": {
+            "vendor_name": {
+              "expected": "Northstar Demo Supplies",
+              "actual": "Northstar Demo Supplies",
+              "match": true
+            },
+            "invoice_number": {
+              "expected": "DEMO-1003",
+              "actual": "DEMO-1003",
+              "match": true
+            },
+            "invoice_date": {
+              "expected": "2026-01-15",
+              "actual": "2026-01-15",
+              "match": true
+            },
+            "due_date": {
+              "expected": "2026-02-14",
+              "actual": "2026-02-14",
+              "match": true
+            },
+            "subtotal": {
+              "expected": 1000.0,
+              "actual": 1000.0,
+              "match": true
+            },
+            "tax": {
+              "expected": 80.0,
+              "actual": 80.0,
+              "match": true
+            },
+            "shipping_handling": {
+              "expected": 25.0,
+              "actual": 25.0,
+              "match": true
+            },
+            "total_amount": {
+              "expected": 1105.0,
+              "actual": 1105.0,
+              "match": true
+            }
+          },
+          "errors": [],
+          "needs_review": false,
+          "validation_failures": []
+        },
+        {
+          "elapsed_ms": 14.012,
+          "fields": {
+            "vendor_name": {
+              "expected": "Northstar Demo Supplies",
+              "actual": "Northstar Demo Supplies",
+              "match": true
+            },
+            "invoice_number": {
+              "expected": "DEMO-1003",
+              "actual": "DEMO-1003",
+              "match": true
+            },
+            "invoice_date": {
+              "expected": "2026-01-15",
+              "actual": "2026-01-15",
+              "match": true
+            },
+            "due_date": {
+              "expected": "2026-02-14",
+              "actual": "2026-02-14",
+              "match": true
+            },
+            "subtotal": {
+              "expected": 1000.0,
+              "actual": 1000.0,
+              "match": true
+            },
+            "tax": {
+              "expected": 80.0,
+              "actual": 80.0,
+              "match": true
+            },
+            "shipping_handling": {
+              "expected": 25.0,
+              "actual": 25.0,
+              "match": true
+            },
+            "total_amount": {
+              "expected": 1105.0,
+              "actual": 1105.0,
+              "match": true
+            }
+          },
+          "errors": [],
+          "needs_review": false,
+          "validation_failures": []
+        }
+      ]
+    },
+    {
+      "id": "alternate-labels",
+      "file": "alternate-labels.txt",
+      "runs": [
+        {
+          "elapsed_ms": 14.609,
+          "fields": {
+            "vendor_name": {
+              "expected": "Northstar Demo Supplies",
+              "actual": "Northstar Demo Supplies",
+              "match": true
+            },
+            "invoice_number": {
+              "expected": "DEMO-1004",
+              "actual": "DEMO-1004",
+              "match": true
+            },
+            "invoice_date": {
+              "expected": "01/15/2026",
+              "actual": "01/15/2026",
+              "match": true
+            },
+            "due_date": {
+              "expected": "02/14/2026",
+              "actual": "02/14/2026",
+              "match": true
+            },
+            "subtotal": {
+              "expected": 1000.0,
+              "actual": 1000.0,
+              "match": true
+            },
+            "tax": {
+              "expected": 80.0,
+              "actual": 80.0,
+              "match": true
+            },
+            "shipping_handling": {
+              "expected": null,
+              "actual": null,
+              "match": true
+            },
+            "total_amount": {
+              "expected": 1080.0,
+              "actual": 1080.0,
+              "match": true
+            }
+          },
+          "errors": [],
+          "needs_review": false,
+          "validation_failures": []
+        },
+        {
+          "elapsed_ms": 9.648,
+          "fields": {
+            "vendor_name": {
+              "expected": "Northstar Demo Supplies",
+              "actual": "Northstar Demo Supplies",
+              "match": true
+            },
+            "invoice_number": {
+              "expected": "DEMO-1004",
+              "actual": "DEMO-1004",
+              "match": true
+            },
+            "invoice_date": {
+              "expected": "01/15/2026",
+              "actual": "01/15/2026",
+              "match": true
+            },
+            "due_date": {
+              "expected": "02/14/2026",
+              "actual": "02/14/2026",
+              "match": true
+            },
+            "subtotal": {
+              "expected": 1000.0,
+              "actual": 1000.0,
+              "match": true
+            },
+            "tax": {
+              "expected": 80.0,
+              "actual": 80.0,
+              "match": true
+            },
+            "shipping_handling": {
+              "expected": null,
+              "actual": null,
+              "match": true
+            },
+            "total_amount": {
+              "expected": 1080.0,
+              "actual": 1080.0,
+              "match": true
+            }
+          },
+          "errors": [],
+          "needs_review": false,
+          "validation_failures": []
+        },
+        {
+          "elapsed_ms": 9.133,
+          "fields": {
+            "vendor_name": {
+              "expected": "Northstar Demo Supplies",
+              "actual": "Northstar Demo Supplies",
+              "match": true
+            },
+            "invoice_number": {
+              "expected": "DEMO-1004",
+              "actual": "DEMO-1004",
+              "match": true
+            },
+            "invoice_date": {
+              "expected": "01/15/2026",
+              "actual": "01/15/2026",
+              "match": true
+            },
+            "due_date": {
+              "expected": "02/14/2026",
+              "actual": "02/14/2026",
+              "match": true
+            },
+            "subtotal": {
+              "expected": 1000.0,
+              "actual": 1000.0,
+              "match": true
+            },
+            "tax": {
+              "expected": 80.0,
+              "actual": 80.0,
+              "match": true
+            },
+            "shipping_handling": {
+              "expected": null,
+              "actual": null,
+              "match": true
+            },
+            "total_amount": {
+              "expected": 1080.0,
+              "actual": 1080.0,
+              "match": true
+            }
+          },
+          "errors": [],
+          "needs_review": false,
+          "validation_failures": []
+        }
+      ]
+    },
+    {
+      "id": "missing-due-date",
+      "file": "missing-due-date.txt",
+      "runs": [
+        {
+          "elapsed_ms": 9.601,
+          "fields": {
+            "vendor_name": {
+              "expected": "Northstar Demo Supplies",
+              "actual": "Northstar Demo Supplies",
+              "match": true
+            },
+            "invoice_number": {
+              "expected": "DEMO-1005",
+              "actual": "DEMO-1005",
+              "match": true
+            },
+            "invoice_date": {
+              "expected": "2026-01-15",
+              "actual": "2026-01-15",
+              "match": true
+            },
+            "due_date": {
+              "expected": null,
+              "actual": null,
+              "match": true
+            },
+            "subtotal": {
+              "expected": 1000.0,
+              "actual": 1000.0,
+              "match": true
+            },
+            "tax": {
+              "expected": 80.0,
+              "actual": 80.0,
+              "match": true
+            },
+            "shipping_handling": {
+              "expected": null,
+              "actual": null,
+              "match": true
+            },
+            "total_amount": {
+              "expected": 1080.0,
+              "actual": 1080.0,
+              "match": true
+            }
+          },
+          "errors": [],
+          "needs_review": false,
+          "validation_failures": []
+        },
+        {
+          "elapsed_ms": 10.155,
+          "fields": {
+            "vendor_name": {
+              "expected": "Northstar Demo Supplies",
+              "actual": "Northstar Demo Supplies",
+              "match": true
+            },
+            "invoice_number": {
+              "expected": "DEMO-1005",
+              "actual": "DEMO-1005",
+              "match": true
+            },
+            "invoice_date": {
+              "expected": "2026-01-15",
+              "actual": "2026-01-15",
+              "match": true
+            },
+            "due_date": {
+              "expected": null,
+              "actual": null,
+              "match": true
+            },
+            "subtotal": {
+              "expected": 1000.0,
+              "actual": 1000.0,
+              "match": true
+            },
+            "tax": {
+              "expected": 80.0,
+              "actual": 80.0,
+              "match": true
+            },
+            "shipping_handling": {
+              "expected": null,
+              "actual": null,
+              "match": true
+            },
+            "total_amount": {
+              "expected": 1080.0,
+              "actual": 1080.0,
+              "match": true
+            }
+          },
+          "errors": [],
+          "needs_review": false,
+          "validation_failures": []
+        },
+        {
+          "elapsed_ms": 11.855,
+          "fields": {
+            "vendor_name": {
+              "expected": "Northstar Demo Supplies",
+              "actual": "Northstar Demo Supplies",
+              "match": true
+            },
+            "invoice_number": {
+              "expected": "DEMO-1005",
+              "actual": "DEMO-1005",
+              "match": true
+            },
+            "invoice_date": {
+              "expected": "2026-01-15",
+              "actual": "2026-01-15",
+              "match": true
+            },
+            "due_date": {
+              "expected": null,
+              "actual": null,
+              "match": true
+            },
+            "subtotal": {
+              "expected": 1000.0,
+              "actual": 1000.0,
+              "match": true
+            },
+            "tax": {
+              "expected": 80.0,
+              "actual": 80.0,
+              "match": true
+            },
+            "shipping_handling": {
+              "expected": null,
+              "actual": null,
+              "match": true
+            },
+            "total_amount": {
+              "expected": 1080.0,
+              "actual": 1080.0,
+              "match": true
+            }
+          },
+          "errors": [],
+          "needs_review": false,
+          "validation_failures": []
+        }
+      ]
+    },
+    {
+      "id": "inconsistent-total",
+      "file": "inconsistent-total.txt",
+      "runs": [
+        {
+          "elapsed_ms": 11.789,
+          "fields": {
+            "vendor_name": {
+              "expected": "Northstar Demo Supplies",
+              "actual": "Northstar Demo Supplies",
+              "match": true
+            },
+            "invoice_number": {
+              "expected": "DEMO-1006",
+              "actual": "DEMO-1006",
+              "match": true
+            },
+            "invoice_date": {
+              "expected": "2026-01-15",
+              "actual": "2026-01-15",
+              "match": true
+            },
+            "due_date": {
+              "expected": "2026-02-14",
+              "actual": "2026-02-14",
+              "match": true
+            },
+            "subtotal": {
+              "expected": 1000.0,
+              "actual": 1000.0,
+              "match": true
+            },
+            "tax": {
+              "expected": 80.0,
+              "actual": 80.0,
+              "match": true
+            },
+            "shipping_handling": {
+              "expected": null,
+              "actual": null,
+              "match": true
+            },
+            "total_amount": {
+              "expected": 999.0,
+              "actual": 999.0,
+              "match": true
+            }
+          },
+          "errors": [],
+          "needs_review": true,
+          "validation_failures": [
+            {
+              "field": "total_consistency",
+              "status": "fail",
+              "message": "Expected total 1080.00, but found 999.00."
+            }
+          ]
+        },
+        {
+          "elapsed_ms": 15.518,
+          "fields": {
+            "vendor_name": {
+              "expected": "Northstar Demo Supplies",
+              "actual": "Northstar Demo Supplies",
+              "match": true
+            },
+            "invoice_number": {
+              "expected": "DEMO-1006",
+              "actual": "DEMO-1006",
+              "match": true
+            },
+            "invoice_date": {
+              "expected": "2026-01-15",
+              "actual": "2026-01-15",
+              "match": true
+            },
+            "due_date": {
+              "expected": "2026-02-14",
+              "actual": "2026-02-14",
+              "match": true
+            },
+            "subtotal": {
+              "expected": 1000.0,
+              "actual": 1000.0,
+              "match": true
+            },
+            "tax": {
+              "expected": 80.0,
+              "actual": 80.0,
+              "match": true
+            },
+            "shipping_handling": {
+              "expected": null,
+              "actual": null,
+              "match": true
+            },
+            "total_amount": {
+              "expected": 999.0,
+              "actual": 999.0,
+              "match": true
+            }
+          },
+          "errors": [],
+          "needs_review": true,
+          "validation_failures": [
+            {
+              "field": "total_consistency",
+              "status": "fail",
+              "message": "Expected total 1080.00, but found 999.00."
+            }
+          ]
+        },
+        {
+          "elapsed_ms": 11.455,
+          "fields": {
+            "vendor_name": {
+              "expected": "Northstar Demo Supplies",
+              "actual": "Northstar Demo Supplies",
+              "match": true
+            },
+            "invoice_number": {
+              "expected": "DEMO-1006",
+              "actual": "DEMO-1006",
+              "match": true
+            },
+            "invoice_date": {
+              "expected": "2026-01-15",
+              "actual": "2026-01-15",
+              "match": true
+            },
+            "due_date": {
+              "expected": "2026-02-14",
+              "actual": "2026-02-14",
+              "match": true
+            },
+            "subtotal": {
+              "expected": 1000.0,
+              "actual": 1000.0,
+              "match": true
+            },
+            "tax": {
+              "expected": 80.0,
+              "actual": 80.0,
+              "match": true
+            },
+            "shipping_handling": {
+              "expected": null,
+              "actual": null,
+              "match": true
+            },
+            "total_amount": {
+              "expected": 999.0,
+              "actual": 999.0,
+              "match": true
+            }
+          },
+          "errors": [],
+          "needs_review": true,
+          "validation_failures": [
+            {
+              "field": "total_consistency",
+              "status": "fail",
+              "message": "Expected total 1080.00, but found 999.00."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unfamiliar-labels",
+      "file": "unfamiliar-labels.txt",
+      "runs": [
+        {
+          "elapsed_ms": 15.433,
+          "fields": {
+            "vendor_name": {
+              "expected": "Northstar Demo Supplies",
+              "actual": null,
+              "match": false
+            },
+            "invoice_number": {
+              "expected": "DEMO-1007",
+              "actual": null,
+              "match": false
+            },
+            "invoice_date": {
+              "expected": "2026-01-15",
+              "actual": null,
+              "match": false
+            },
+            "due_date": {
+              "expected": "2026-02-14",
+              "actual": null,
+              "match": false
+            },
+            "subtotal": {
+              "expected": 1000.0,
+              "actual": null,
+              "match": false
+            },
+            "tax": {
+              "expected": 80.0,
+              "actual": null,
+              "match": false
+            },
+            "shipping_handling": {
+              "expected": null,
+              "actual": null,
+              "match": true
+            },
+            "total_amount": {
+              "expected": 1080.0,
+              "actual": null,
+              "match": false
+            }
+          },
+          "errors": [],
+          "needs_review": true,
+          "validation_failures": [
+            {
+              "field": "vendor_name",
+              "status": "fail",
+              "message": "Required field is missing."
+            },
+            {
+              "field": "invoice_number",
+              "status": "fail",
+              "message": "Required field is missing."
+            },
+            {
+              "field": "invoice_date",
+              "status": "fail",
+              "message": "Required field is missing."
+            },
+            {
+              "field": "total_amount",
+              "status": "fail",
+              "message": "Required field is missing."
+            },
+            {
+              "field": "total_amount",
+              "status": "fail",
+              "message": "Total amount must be > 0."
+            }
+          ]
+        },
+        {
+          "elapsed_ms": 14.78,
+          "fields": {
+            "vendor_name": {
+              "expected": "Northstar Demo Supplies",
+              "actual": null,
+              "match": false
+            },
+            "invoice_number": {
+              "expected": "DEMO-1007",
+              "actual": null,
+              "match": false
+            },
+            "invoice_date": {
+              "expected": "2026-01-15",
+              "actual": null,
+              "match": false
+            },
+            "due_date": {
+              "expected": "2026-02-14",
+              "actual": null,
+              "match": false
+            },
+            "subtotal": {
+              "expected": 1000.0,
+              "actual": null,
+              "match": false
+            },
+            "tax": {
+              "expected": 80.0,
+              "actual": null,
+              "match": false
+            },
+            "shipping_handling": {
+              "expected": null,
+              "actual": null,
+              "match": true
+            },
+            "total_amount": {
+              "expected": 1080.0,
+              "actual": null,
+              "match": false
+            }
+          },
+          "errors": [],
+          "needs_review": true,
+          "validation_failures": [
+            {
+              "field": "vendor_name",
+              "status": "fail",
+              "message": "Required field is missing."
+            },
+            {
+              "field": "invoice_number",
+              "status": "fail",
+              "message": "Required field is missing."
+            },
+            {
+              "field": "invoice_date",
+              "status": "fail",
+              "message": "Required field is missing."
+            },
+            {
+              "field": "total_amount",
+              "status": "fail",
+              "message": "Required field is missing."
+            },
+            {
+              "field": "total_amount",
+              "status": "fail",
+              "message": "Total amount must be > 0."
+            }
+          ]
+        },
+        {
+          "elapsed_ms": 18.219,
+          "fields": {
+            "vendor_name": {
+              "expected": "Northstar Demo Supplies",
+              "actual": null,
+              "match": false
+            },
+            "invoice_number": {
+              "expected": "DEMO-1007",
+              "actual": null,
+              "match": false
+            },
+            "invoice_date": {
+              "expected": "2026-01-15",
+              "actual": null,
+              "match": false
+            },
+            "due_date": {
+              "expected": "2026-02-14",
+              "actual": null,
+              "match": false
+            },
+            "subtotal": {
+              "expected": 1000.0,
+              "actual": null,
+              "match": false
+            },
+            "tax": {
+              "expected": 80.0,
+              "actual": null,
+              "match": false
+            },
+            "shipping_handling": {
+              "expected": null,
+              "actual": null,
+              "match": true
+            },
+            "total_amount": {
+              "expected": 1080.0,
+              "actual": null,
+              "match": false
+            }
+          },
+          "errors": [],
+          "needs_review": true,
+          "validation_failures": [
+            {
+              "field": "vendor_name",
+              "status": "fail",
+              "message": "Required field is missing."
+            },
+            {
+              "field": "invoice_number",
+              "status": "fail",
+              "message": "Required field is missing."
+            },
+            {
+              "field": "invoice_date",
+              "status": "fail",
+              "message": "Required field is missing."
+            },
+            {
+              "field": "total_amount",
+              "status": "fail",
+              "message": "Required field is missing."
+            },
+            {
+              "field": "total_amount",
+              "status": "fail",
+              "message": "Total amount must be > 0."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
