@@ -1,0 +1,107 @@
+[
+  {
+    "id": "standard",
+    "description": "Explicit labels and ISO dates.",
+    "file": "standard.txt",
+    "expected": {
+      "vendor_name": "Northstar Demo Supplies",
+      "invoice_number": "DEMO-1001",
+      "invoice_date": "2026-01-15",
+      "due_date": "2026-02-14",
+      "subtotal": 1000.0,
+      "tax": 80.0,
+      "shipping_handling": null,
+      "total_amount": 1080.0
+    }
+  },
+  {
+    "id": "first-line-vendor",
+    "description": "Vendor name appears before invoice header.",
+    "file": "first-line-vendor.txt",
+    "expected": {
+      "vendor_name": "Northstar Demo Supplies",
+      "invoice_number": "DEMO-1002",
+      "invoice_date": "2026-01-15",
+      "due_date": "2026-02-14",
+      "subtotal": 1000.0,
+      "tax": 80.0,
+      "shipping_handling": null,
+      "total_amount": 1080.0
+    }
+  },
+  {
+    "id": "shipping",
+    "description": "Shipping must be included in total consistency.",
+    "file": "shipping.txt",
+    "expected": {
+      "vendor_name": "Northstar Demo Supplies",
+      "invoice_number": "DEMO-1003",
+      "invoice_date": "2026-01-15",
+      "due_date": "2026-02-14",
+      "subtotal": 1000.0,
+      "tax": 80.0,
+      "shipping_handling": 25.0,
+      "total_amount": 1105.0
+    }
+  },
+  {
+    "id": "alternate-labels",
+    "description": "Alternate labels and slash-delimited dates.",
+    "file": "alternate-labels.txt",
+    "expected": {
+      "vendor_name": "Northstar Demo Supplies",
+      "invoice_number": "DEMO-1004",
+      "invoice_date": "01/15/2026",
+      "due_date": "02/14/2026",
+      "subtotal": 1000.0,
+      "tax": 80.0,
+      "shipping_handling": null,
+      "total_amount": 1080.0
+    }
+  },
+  {
+    "id": "missing-due-date",
+    "description": "Absent due date is labeled null, not invented.",
+    "file": "missing-due-date.txt",
+    "expected": {
+      "vendor_name": "Northstar Demo Supplies",
+      "invoice_number": "DEMO-1005",
+      "invoice_date": "2026-01-15",
+      "due_date": null,
+      "subtotal": 1000.0,
+      "tax": 80.0,
+      "shipping_handling": null,
+      "total_amount": 1080.0
+    }
+  },
+  {
+    "id": "inconsistent-total",
+    "description": "Correct extraction can still fail a business validation rule.",
+    "file": "inconsistent-total.txt",
+    "expected": {
+      "vendor_name": "Northstar Demo Supplies",
+      "invoice_number": "DEMO-1006",
+      "invoice_date": "2026-01-15",
+      "due_date": "2026-02-14",
+      "subtotal": 1000.0,
+      "tax": 80.0,
+      "shipping_handling": null,
+      "total_amount": 999.0
+    }
+  },
+  {
+    "id": "unfamiliar-labels",
+    "description": "Challenge case: uncommon field labels are intentionally retained.",
+    "file": "unfamiliar-labels.txt",
+    "expected": {
+      "vendor_name": "Northstar Demo Supplies",
+      "invoice_number": "DEMO-1007",
+      "invoice_date": "2026-01-15",
+      "due_date": "2026-02-14",
+      "subtotal": 1000.0,
+      "tax": 80.0,
+      "shipping_handling": null,
+      "total_amount": 1080.0
+    }
+  }
+]

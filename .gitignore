@@ -27,3 +27,7 @@ Thumbs.db
 
 # Superpowers planning artifacts (local only)
 docs/superpowers/
+
+# Local test and benchmark runs (checked-in reports live in docs/)
+.pytest_cache/
+/benchmark-results/

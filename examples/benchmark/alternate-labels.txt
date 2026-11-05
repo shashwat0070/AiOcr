@@ -1,0 +1,7 @@
+From: Northstar Demo Supplies
+Invoice # DEMO-1004
+Date: 01/15/2026
+Due Date: 02/14/2026
+Subtotal: $1,000.00
+Tax: $80.00
+Amount Due: $1,080.00

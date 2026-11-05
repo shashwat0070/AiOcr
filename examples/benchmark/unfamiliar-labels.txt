@@ -1,0 +1,8 @@
+INVOICE
+Seller name: Northstar Demo Supplies
+Reference ID: DEMO-1007
+Issued on: 2026-01-15
+Pay before: 2026-02-14
+Net charges: USD 1000.00
+Sales levy: USD 80.00
+Balance payable: USD 1080.00
